@@ -1,0 +1,6 @@
+framework module Pods_GlobalLogicTest {
+  umbrella header "Pods-GlobalLogicTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
