@@ -11,5 +11,12 @@ import Foundation
 struct Laptop: Codable {
 	let title: String
 	let description: String
-	let imageURL: URL?
+	let image: String?
+}
+
+extension Laptop {
+	var imageURL: URL? {
+		guard let image = image else { return nil }
+		return URL(string: image)
+	}
 }
