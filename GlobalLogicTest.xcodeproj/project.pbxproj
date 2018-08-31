@@ -15,6 +15,8 @@
 		A1F5FEE52139C57A005DC49B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1F5FEE32139C57A005DC49B /* LaunchScreen.storyboard */; };
 		A1F5FEF02139C57A005DC49B /* GlobalLogicTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F5FEEF2139C57A005DC49B /* GlobalLogicTestTests.swift */; };
 		A1F5FEFD2139D1B0005DC49B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1F5FEFC2139D1B0005DC49B /* Default-568h@2x.png */; };
+		A1F5FEFF2139D98B005DC49B /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F5FEFE2139D98B005DC49B /* APIRouter.swift */; };
+		A1F5FF012139DA46005DC49B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F5FF002139DA46005DC49B /* Constants.swift */; };
 		C040ACED81DA07451FA2F90F /* Pods_GlobalLogicTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655937F503B1DFD642686E33 /* Pods_GlobalLogicTestTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +44,8 @@
 		A1F5FEEF2139C57A005DC49B /* GlobalLogicTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalLogicTestTests.swift; sourceTree = "<group>"; };
 		A1F5FEF12139C57B005DC49B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1F5FEFC2139D1B0005DC49B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A1F5FEFE2139D98B005DC49B /* APIRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRouter.swift; sourceTree = "<group>"; };
+		A1F5FF002139DA46005DC49B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		C222B4752FB0B816164C0E5D /* Pods-GlobalLogicTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlobalLogicTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GlobalLogicTest/Pods-GlobalLogicTest.debug.xcconfig"; sourceTree = "<group>"; };
 		D33D02DB6D6D7ACC231F04E9 /* Pods-GlobalLogicTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlobalLogicTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GlobalLogicTestTests/Pods-GlobalLogicTestTests.release.xcconfig"; sourceTree = "<group>"; };
 		F8876143A729C1A6AD656AD1 /* Pods_GlobalLogicTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GlobalLogicTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -108,6 +112,15 @@
 				A1F5FEF12139C57B005DC49B /* Info.plist */,
 			);
 			path = GlobalLogicTestTests;
+			sourceTree = "<group>";
+		};
+		A1F5FEFA2139D12D005DC49B /* Gateways */ = {
+			isa = PBXGroup;
+			children = (
+				A1F5FEFE2139D98B005DC49B /* APIRouter.swift */,
+				A1F5FF002139DA46005DC49B /* Constants.swift */,
+			);
+			path = Gateways;
 			sourceTree = "<group>";
 		};
 		A1F5FEFB2139D14E005DC49B /* Bootstrap */ = {
@@ -324,7 +337,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1F5FEDD2139C579005DC49B /* ViewController.swift in Sources */,
+				A1F5FEFF2139D98B005DC49B /* APIRouter.swift in Sources */,
 				A1F5FEDB2139C579005DC49B /* AppDelegate.swift in Sources */,
+				A1F5FF012139DA46005DC49B /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
