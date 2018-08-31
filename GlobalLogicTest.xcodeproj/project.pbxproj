@@ -17,6 +17,7 @@
 		A1F5FEFD2139D1B0005DC49B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1F5FEFC2139D1B0005DC49B /* Default-568h@2x.png */; };
 		A1F5FEFF2139D98B005DC49B /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F5FEFE2139D98B005DC49B /* APIRouter.swift */; };
 		A1F5FF012139DA46005DC49B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F5FF002139DA46005DC49B /* Constants.swift */; };
+		A1F5FF042139E0E9005DC49B /* Laptop.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F5FF032139E0E9005DC49B /* Laptop.swift */; };
 		C040ACED81DA07451FA2F90F /* Pods_GlobalLogicTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 655937F503B1DFD642686E33 /* Pods_GlobalLogicTestTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +47,7 @@
 		A1F5FEFC2139D1B0005DC49B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		A1F5FEFE2139D98B005DC49B /* APIRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRouter.swift; sourceTree = "<group>"; };
 		A1F5FF002139DA46005DC49B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A1F5FF032139E0E9005DC49B /* Laptop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Laptop.swift; sourceTree = "<group>"; };
 		C222B4752FB0B816164C0E5D /* Pods-GlobalLogicTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlobalLogicTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GlobalLogicTest/Pods-GlobalLogicTest.debug.xcconfig"; sourceTree = "<group>"; };
 		D33D02DB6D6D7ACC231F04E9 /* Pods-GlobalLogicTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GlobalLogicTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GlobalLogicTestTests/Pods-GlobalLogicTestTests.release.xcconfig"; sourceTree = "<group>"; };
 		F8876143A729C1A6AD656AD1 /* Pods_GlobalLogicTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GlobalLogicTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,6 +102,7 @@
 				A1F5FEFB2139D14E005DC49B /* Bootstrap */,
 				A1F5FEDA2139C579005DC49B /* AppDelegate.swift */,
 				A1F5FEDC2139C579005DC49B /* ViewController.swift */,
+				A1F5FF022139E062005DC49B /* Model */,
 				A1F5FEFA2139D12D005DC49B /* Gateways */,
 			);
 			path = GlobalLogicTest;
@@ -131,6 +134,14 @@
 				A1F5FEE32139C57A005DC49B /* LaunchScreen.storyboard */,
 			);
 			path = Bootstrap;
+			sourceTree = "<group>";
+		};
+		A1F5FF022139E062005DC49B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A1F5FF032139E0E9005DC49B /* Laptop.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		CDCB4BCADA4768A4CB4FDDD2 /* Pods */ = {
@@ -340,6 +351,7 @@
 				A1F5FEFF2139D98B005DC49B /* APIRouter.swift in Sources */,
 				A1F5FEDB2139C579005DC49B /* AppDelegate.swift in Sources */,
 				A1F5FF012139DA46005DC49B /* Constants.swift in Sources */,
+				A1F5FF042139E0E9005DC49B /* Laptop.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
