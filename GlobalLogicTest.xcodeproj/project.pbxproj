@@ -10,11 +10,12 @@
 		89000E6C3E8E216C2F479D92 /* Pods_GlobalLogicTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8876143A729C1A6AD656AD1 /* Pods_GlobalLogicTest.framework */; };
 		A162781B213AD95300315A48 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1627819213AD95300315A48 /* ListViewController.swift */; };
 		A162781C213AD95300315A48 /* ListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A162781A213AD95300315A48 /* ListViewController.xib */; };
-		A162782B213B110B00315A48 /* ListPresenterSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = A162782A213B110B00315A48 /* ListPresenterSpec.swift */; };
 		A162781F213ADE6400315A48 /* DetailBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A162781E213ADE6400315A48 /* DetailBuilder.swift */; };
 		A1627824213ADEBC00315A48 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1627822213ADEBC00315A48 /* DetailViewController.swift */; };
 		A1627825213ADEBC00315A48 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1627823213ADEBC00315A48 /* DetailViewController.xib */; };
 		A1627827213ADF0F00315A48 /* DetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1627826213ADF0F00315A48 /* DetailPresenter.swift */; };
+		A162782B213B110B00315A48 /* ListPresenterSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = A162782A213B110B00315A48 /* ListPresenterSpec.swift */; };
+		A162782E213B24E500315A48 /* DetailPresenterSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = A162782D213B24E500315A48 /* DetailPresenterSpec.swift */; };
 		A1AB0A18213A25290069022E /* ListViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AB0A17213A25290069022E /* ListViewPresenter.swift */; };
 		A1AB0A1A213A26880069022E /* ListViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AB0A19213A26880069022E /* ListViewBuilder.swift */; };
 		A1AB0A1D213A30E20069022E /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AB0A1C213A30E20069022E /* UIImage+Extensions.swift */; };
@@ -23,7 +24,6 @@
 		A1F5FEDB2139C579005DC49B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F5FEDA2139C579005DC49B /* AppDelegate.swift */; };
 		A1F5FEE22139C57A005DC49B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1F5FEE12139C57A005DC49B /* Assets.xcassets */; };
 		A1F5FEE52139C57A005DC49B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1F5FEE32139C57A005DC49B /* LaunchScreen.storyboard */; };
-		A1F5FEF02139C57A005DC49B /* GlobalLogicTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F5FEEF2139C57A005DC49B /* GlobalLogicTestTests.swift */; };
 		A1F5FEFD2139D1B0005DC49B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1F5FEFC2139D1B0005DC49B /* Default-568h@2x.png */; };
 		A1F5FEFF2139D98B005DC49B /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F5FEFE2139D98B005DC49B /* APIRouter.swift */; };
 		A1F5FF012139DA46005DC49B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F5FF002139DA46005DC49B /* Constants.swift */; };
@@ -48,11 +48,12 @@
 		655937F503B1DFD642686E33 /* Pods_GlobalLogicTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GlobalLogicTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1627819213AD95300315A48 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		A162781A213AD95300315A48 /* ListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListViewController.xib; sourceTree = "<group>"; };
-		A162782A213B110B00315A48 /* ListPresenterSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPresenterSpec.swift; sourceTree = "<group>"; };
 		A162781E213ADE6400315A48 /* DetailBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailBuilder.swift; sourceTree = "<group>"; };
 		A1627822213ADEBC00315A48 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		A1627823213ADEBC00315A48 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 		A1627826213ADF0F00315A48 /* DetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPresenter.swift; sourceTree = "<group>"; };
+		A162782A213B110B00315A48 /* ListPresenterSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPresenterSpec.swift; sourceTree = "<group>"; };
+		A162782D213B24E500315A48 /* DetailPresenterSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPresenterSpec.swift; sourceTree = "<group>"; };
 		A1AB0A17213A25290069022E /* ListViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewPresenter.swift; sourceTree = "<group>"; };
 		A1AB0A19213A26880069022E /* ListViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewBuilder.swift; sourceTree = "<group>"; };
 		A1AB0A1C213A30E20069022E /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
@@ -64,7 +65,6 @@
 		A1F5FEE42139C57A005DC49B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1F5FEE62139C57A005DC49B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1F5FEEB2139C57A005DC49B /* GlobalLogicTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GlobalLogicTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1F5FEEF2139C57A005DC49B /* GlobalLogicTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalLogicTestTests.swift; sourceTree = "<group>"; };
 		A1F5FEF12139C57B005DC49B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1F5FEFC2139D1B0005DC49B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		A1F5FEFE2139D98B005DC49B /* APIRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRouter.swift; sourceTree = "<group>"; };
@@ -98,10 +98,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A162781D213ADE4B00315A48 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				A162781E213ADE6400315A48 /* DetailBuilder.swift */,
+				A1627826213ADF0F00315A48 /* DetailPresenter.swift */,
+				A1627822213ADEBC00315A48 /* DetailViewController.swift */,
+				A1627823213ADEBC00315A48 /* DetailViewController.xib */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
 		A1627828213B10E100315A48 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
 				A1627829213B10F100315A48 /* List */,
+				A162782C213B24C100315A48 /* Detail */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -114,13 +126,10 @@
 			path = List;
 			sourceTree = "<group>";
 		};
-		A162781D213ADE4B00315A48 /* Detail */ = {
+		A162782C213B24C100315A48 /* Detail */ = {
 			isa = PBXGroup;
 			children = (
-				A162781E213ADE6400315A48 /* DetailBuilder.swift */,
-				A1627826213ADF0F00315A48 /* DetailPresenter.swift */,
-				A1627822213ADEBC00315A48 /* DetailViewController.swift */,
-				A1627823213ADEBC00315A48 /* DetailViewController.xib */,
+				A162782D213B24E500315A48 /* DetailPresenterSpec.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -172,7 +181,6 @@
 			children = (
 				A1627828213B10E100315A48 /* Modules */,
 				A1F5FF09213A1150005DC49B /* Gateways */,
-				A1F5FEEF2139C57A005DC49B /* GlobalLogicTestTests.swift */,
 				A1F5FEF12139C57B005DC49B /* Info.plist */,
 			);
 			path = GlobalLogicTestTests;
@@ -464,7 +472,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A162782B213B110B00315A48 /* ListPresenterSpec.swift in Sources */,
-				A1F5FEF02139C57A005DC49B /* GlobalLogicTestTests.swift in Sources */,
+				A162782E213B24E500315A48 /* DetailPresenterSpec.swift in Sources */,
 				A1F5FF0B213A117C005DC49B /* LaptopTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
