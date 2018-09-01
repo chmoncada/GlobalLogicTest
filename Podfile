@@ -6,6 +6,7 @@ target 'GlobalLogicTest' do
 
   # Pods for GlobalLogicTest
   pod 'Alamofire', '~> 4.7'
+  pod 'AlamofireImage', '~> 3.3'
 
   target 'GlobalLogicTestTests' do
     inherit! :search_paths
