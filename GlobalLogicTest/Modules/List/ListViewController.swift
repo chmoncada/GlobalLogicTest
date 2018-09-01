@@ -108,20 +108,14 @@ extension ListViewController : ListView {
 	}
 
 	func displayLaptops(_ laptops: [Laptop]) {
-		//		self.movieCellModels = movieCellModels
-		//		collectionView.reloadData()
-		//		UIView.animate(withDuration: 0.3) { [weak self] in
-		//			self?.collectionView.alpha = 1
-		//		}
 		dataModel = laptops
 		UIView.animate(withDuration: 0.3) { [weak self] in
 			self?.tableView.alpha = 1
 		}
-
 	}
 
 	func display(_ error: Error) {
-
+		print(error.localizedDescription)
 	}
 
 
