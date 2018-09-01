@@ -11,6 +11,10 @@
 		A162781B213AD95300315A48 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1627819213AD95300315A48 /* ListViewController.swift */; };
 		A162781C213AD95300315A48 /* ListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A162781A213AD95300315A48 /* ListViewController.xib */; };
 		A162782B213B110B00315A48 /* ListPresenterSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = A162782A213B110B00315A48 /* ListPresenterSpec.swift */; };
+		A162781F213ADE6400315A48 /* DetailBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A162781E213ADE6400315A48 /* DetailBuilder.swift */; };
+		A1627824213ADEBC00315A48 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1627822213ADEBC00315A48 /* DetailViewController.swift */; };
+		A1627825213ADEBC00315A48 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1627823213ADEBC00315A48 /* DetailViewController.xib */; };
+		A1627827213ADF0F00315A48 /* DetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1627826213ADF0F00315A48 /* DetailPresenter.swift */; };
 		A1AB0A18213A25290069022E /* ListViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AB0A17213A25290069022E /* ListViewPresenter.swift */; };
 		A1AB0A1A213A26880069022E /* ListViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AB0A19213A26880069022E /* ListViewBuilder.swift */; };
 		A1AB0A1D213A30E20069022E /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1AB0A1C213A30E20069022E /* UIImage+Extensions.swift */; };
@@ -45,6 +49,10 @@
 		A1627819213AD95300315A48 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		A162781A213AD95300315A48 /* ListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListViewController.xib; sourceTree = "<group>"; };
 		A162782A213B110B00315A48 /* ListPresenterSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPresenterSpec.swift; sourceTree = "<group>"; };
+		A162781E213ADE6400315A48 /* DetailBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailBuilder.swift; sourceTree = "<group>"; };
+		A1627822213ADEBC00315A48 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A1627823213ADEBC00315A48 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		A1627826213ADF0F00315A48 /* DetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPresenter.swift; sourceTree = "<group>"; };
 		A1AB0A17213A25290069022E /* ListViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewPresenter.swift; sourceTree = "<group>"; };
 		A1AB0A19213A26880069022E /* ListViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewBuilder.swift; sourceTree = "<group>"; };
 		A1AB0A1C213A30E20069022E /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
@@ -104,6 +112,17 @@
 				A162782A213B110B00315A48 /* ListPresenterSpec.swift */,
 			);
 			path = List;
+			sourceTree = "<group>";
+		};
+		A162781D213ADE4B00315A48 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				A162781E213ADE6400315A48 /* DetailBuilder.swift */,
+				A1627826213ADF0F00315A48 /* DetailPresenter.swift */,
+				A1627822213ADEBC00315A48 /* DetailViewController.swift */,
+				A1627823213ADEBC00315A48 /* DetailViewController.xib */,
+			);
+			path = Detail;
 			sourceTree = "<group>";
 		};
 		A1AB0A1B213A309A0069022E /* Utility */ = {
@@ -199,6 +218,7 @@
 			isa = PBXGroup;
 			children = (
 				A1F5FF0D213A1712005DC49B /* List */,
+				A162781D213ADE4B00315A48 /* Detail */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -322,6 +342,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1F5FEE52139C57A005DC49B /* LaunchScreen.storyboard in Resources */,
+				A1627825213ADEBC00315A48 /* DetailViewController.xib in Resources */,
 				A162781C213AD95300315A48 /* ListViewController.xib in Resources */,
 				A1F5FEFD2139D1B0005DC49B /* Default-568h@2x.png in Resources */,
 				A1F5FEE22139C57A005DC49B /* Assets.xcassets in Resources */,
@@ -422,14 +443,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A162781F213ADE6400315A48 /* DetailBuilder.swift in Sources */,
 				A1AB0A22213A3DE70069022E /* ListTableViewCell.swift in Sources */,
 				A1F5FEFF2139D98B005DC49B /* APIRouter.swift in Sources */,
+				A1627824213ADEBC00315A48 /* DetailViewController.swift in Sources */,
 				A1F5FEDB2139C579005DC49B /* AppDelegate.swift in Sources */,
 				A1F5FF012139DA46005DC49B /* Constants.swift in Sources */,
 				A1F5FF042139E0E9005DC49B /* Laptop.swift in Sources */,
 				A162781B213AD95300315A48 /* ListViewController.swift in Sources */,
 				A1AB0A1A213A26880069022E /* ListViewBuilder.swift in Sources */,
 				A1F5FF062139E35A005DC49B /* APIClient.swift in Sources */,
+				A1627827213ADF0F00315A48 /* DetailPresenter.swift in Sources */,
 				A1AB0A1D213A30E20069022E /* UIImage+Extensions.swift in Sources */,
 				A1AB0A18213A25290069022E /* ListViewPresenter.swift in Sources */,
 			);

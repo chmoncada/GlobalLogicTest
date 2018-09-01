@@ -10,13 +10,20 @@ import UIKit
 
 class ListViewBuilder {
 
+	private let detailBuilder: DetailBuilder
+
+	init(detailBuilder: DetailBuilder = DetailBuilder()) {
+		self.detailBuilder = detailBuilder
+	}
+
 	func makeScene() -> ListViewController {
 
 		let listViewController = ListViewController()
 		let presenter = ListViewPresenter(view: listViewController)
 
-		presenter.showDetail = { item in
-			print("debo mostrar el detalle de \(item)")
+		presenter.showDetail = { [detailBuilder] item in
+			let detailVC = detailBuilder.makeScene(with: item)
+			listViewController.show(detailVC, sender: nil)
 		}
 
 		listViewController.presenter = presenter
